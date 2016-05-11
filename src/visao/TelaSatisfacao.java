@@ -17,7 +17,7 @@ public class TelaSatisfacao extends JFrame {
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
+	public void exibirTelaSatisfacao() {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
@@ -40,9 +40,11 @@ public class TelaSatisfacao extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(new CardLayout(0, 0));
-		
+
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\Isael\\workspace\\Laboratorioo\\Opini\\imagens\\TelaSatisfacao.jpg"));
+		lblNewLabel
+				.setIcon(new ImageIcon(
+						"C:\\Users\\Isael\\workspace\\Laboratorioo\\Opini\\imagens\\TelaSatisfacao.jpg"));
 		contentPane.add(lblNewLabel, "name_202647349049074");
 	}
 
